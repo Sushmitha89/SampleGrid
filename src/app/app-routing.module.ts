@@ -6,6 +6,7 @@ import { GridComponent } from  './grid/grid.component';
 
 
 const routes: Routes = [
+  {path: '',component:MainComponent },
   {path:'main', component: MainComponent},
   {path: 'grid', component: GridComponent}
 ];
